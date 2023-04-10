@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursera project</title>
+    <link rel="stylesheet" type="text/css" href="3 columns layout.css">
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: #fff;
+
+    }
+    .wrapper{
+        padding: 5px;
+        max-width: 95%;
+        width: 95%;
+
+        width: 20px auto;
+
+    }
+    header{
+        padding: 0 15px ;
+        text-align: center;
+        font-size: 21px;
+    }
+    .columns{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .columns{
+        flex: 1;
+        border: 1px solid #666;
+        margin: 2px;
+        padding: 10px;
+        background: #3ad;
+        transition: 0.3s;
+    }
+@media screen and (max-width:980px){
+.columns.columns{
+    margin-bottom:5px
+    flex- basis 40px;
+}      
+    
+    .columns.columns:nth-last-child{
+        flex-basis: 100px;
+        margin: 0;
+    }
+    .columns.columns:nth-last-child{
+    margin: right 0px;
+    }
+}
+@media screen and(max-width:98px) {
+    .columns.columns{
+        flex-basis: 100px;
+        margin:0 0 5px 0;
+}
+    
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>
+                Our menu
+            </h1>
+        </header>
+        <section class="columns">
+            <div class="columns">
+                <h2>chiken</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut quo nesciunt impedit expedita temporibus voluptatibus! Harum accusantium nam nulla quod adipisci! Ipsa maiores cum enim, dolores optio officia iste nesciunt sed quod repudiandae nihil eaque, veniam voluptate libero sit. Voluptatum incidunt assumenda voluptatem iste numquam culpa molestiae aspernatur doloribus sequi. Veniam cum cupiditate id ratione, voluptate quo nihil iste explicabo rerum minus repellendus dignissimos ducimus omnis dolore possimus doloremque ab incidunt repudiandae fugit cumque sed adipisci? Atque ad odit placeat officiis, perspiciatis animi non! Enim asperiores eos amet accusamus magnam, possimus reprehenderit cupiditate temporibus? Enim libero quia voluptate dolorum.</p>
+            </div>
+            <div class="columns">
+                <h2>beef</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut quo nesciunt impedit expedita temporibus voluptatibus! Harum accusantium nam nulla quod adipisci! Ipsa maiores cum enim, dolores optio officia iste nesciunt sed quod repudiandae nihil eaque, veniam voluptate libero sit. Voluptatum incidunt assumenda voluptatem iste numquam culpa molestiae aspernatur doloribus sequi. Veniam cum cupiditate id ratione, voluptate quo nihil iste explicabo rerum minus repellendus dignissimos ducimus omnis dolore possimus doloremque ab incidunt repudiandae fugit cumque sed adipisci? Atque ad odit placeat officiis, perspiciatis animi non! Enim asperiores eos amet accusamus magnam, possimus reprehenderit cupiditate temporibus? Enim libero quia voluptate dolorum.</p>
+            </div>
+            <div class="columns">
+                <h2>sushi</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ut quo nesciunt impedit expedita temporibus voluptatibus! Harum accusantium nam nulla quod adipisci! Ipsa maiores cum enim, dolores optio officia iste nesciunt sed quod repudiandae nihil eaque, veniam voluptate libero sit. Voluptatum incidunt assumenda voluptatem iste numquam culpa molestiae aspernatur doloribus sequi. Veniam cum cupiditate id ratione, voluptate quo nihil iste explicabo rerum minus repellendus dignissimos ducimus omnis dolore possimus doloremque ab incidunt repudiandae fugit cumque sed adipisci? Atque ad odit placeat officiis, perspiciatis animi non! Enim asperiores eos amet accusamus magnam, possimus reprehenderit cupiditate temporibus? Enim libero quia voluptate dolorum.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
